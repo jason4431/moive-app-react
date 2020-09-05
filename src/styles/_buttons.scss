@@ -1,0 +1,28 @@
+.buttons {
+    padding-top: 20px;
+}
+
+.fav-button {
+    font-weight: bold;
+    border: solid 1px rgb(1, 210, 119);
+    padding: 7px 5px;
+    border-radius: 1em;
+    font-size: .8em;
+    background-color: rgb(1, 210, 119);
+    color: white;
+}
+
+.unfav-button {
+    font-weight: bold;
+    border: solid 1px red;
+    padding: 7px 5px;
+    border-radius: 1em;
+    font-size: .8em;
+    background-color: red;
+    color: white;
+}
+
+.fav-button:hover,
+.unfav-button:hover {
+    cursor: pointer;
+}

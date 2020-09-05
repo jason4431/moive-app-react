@@ -1,0 +1,27 @@
+header h1 {
+    text-align: center;
+    padding-top: 50px;
+    margin: 0;
+
+    a {
+        border: 3px solid rgb(1, 210, 119);
+        padding: 10px 20px;
+        border-radius: 10px;
+    }
+    
+}
+
+header a {
+    color: white;
+    text-decoration: none;
+}
+
+header {
+    background-color: #051218;
+    margin: 0;
+    border-bottom: 3px solid rgb(1, 210, 119);
+}
+
+nav {
+    padding-bottom: 5px;
+}

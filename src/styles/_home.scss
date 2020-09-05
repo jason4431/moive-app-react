@@ -1,0 +1,31 @@
+.popular-movies {
+    text-align: center;
+    padding-top: 30px;
+    line-height: 10px;
+
+    img:hover {
+        opacity: 0.9;
+    }
+
+    p {
+        font-weight: bold;
+        color: rgba(0, 0, 0, 0.884);
+    }
+
+}
+
+
+@media only screen and (min-width: 700px) {
+
+    .page-info {
+        display: flex;
+        flex-wrap: wrap;
+        max-width: 1000px;
+        margin: 0 auto;
+    }
+
+    .popular-movies {
+        width: 300px;
+        margin: 0 auto;
+    }
+}

@@ -1,0 +1,52 @@
+.about-content {
+    
+    padding-top: 30px;
+
+    img {
+        max-width: 400px;
+       
+    }
+
+    p {
+        padding-top: 20px;
+        width: 400px;
+        margin: 0 auto;
+    }
+
+}
+
+.about-img {
+    text-align: center;
+}
+
+@media only screen and (min-width: 700px) {
+
+    .about-content {
+
+        img {
+            max-width: 500px;
+        }
+        
+        p {
+            width: 500px;
+        }
+    }
+
+    .about-img {
+        width: 500px;
+        margin: 0 auto;
+    }
+}
+
+@media only screen and (min-width: 1050px) {
+
+    .about-content {
+        display: flex;
+        max-width: 1050px;
+        margin: 0 auto;
+    }    
+
+    .about-info {
+        margin: auto 0;
+    }
+}
